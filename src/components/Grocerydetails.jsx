@@ -5,7 +5,7 @@ import data from '../data.json'
 const GroceryDetails = ()=>{
 console.log(data)
 
-const [Data, setData] = useState(data);
+const [Data] = useState(data);
     return(
         <>
         <h1>Groceries</h1>
